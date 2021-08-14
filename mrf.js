@@ -16,7 +16,7 @@ console.log("Population of countries less than 2 Lakhs are: ", count);
 console.log("Country_Name - Captial  - Flag")
 Object.entries(out).forEach((entry) => {
     let name=entry[1].name;
-    let flag=entry[1].flag;a
+    let flag=entry[1].flag;
     let capital = entry[1].capital;
   console.log(name +" - "+capital+" - "+flag);
   });
